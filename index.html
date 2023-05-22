@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    data-cerebro="central-admin-client"
+    class="h-screen grid grid-rows-[auto,1fr] bg-green-100 gap-2 p-2"
+  >
+    <header data-cerebro="classic" class="p-2 bg-green-200 flex items-center">
+      <div class="h-8 bg-green-600 w-32" data-cerebro="logo-project"></div>
+      <div class="flex-1"></div>
+      <ul class="flex gap-2" data-cerebro="sunshine">
+        <li class="w-8 h-8 bg-green-600"></li>
+        <li class="w-8 h-8 bg-green-600"></li>
+        <li class="w-8 h-8 bg-green-600"></li>
+        <li class="w-8 h-8 bg-green-600"></li>
+      </ul>
+    </header>
+    <div class="grid grid-cols-[20%,1fr] gap-2">
+      <div class="bg-green-300" data-cerebro="central-admin-navigation"></div>
+      <div
+        class="bg-green-300 p-2"
+        data-cerebro="admin-center-framework-triggers"
+      >
+        <div class="grid grid-cols-1 gap-2">
+          <div
+            class="bg-green-600 h-32"
+            data-cerebro="admin-center-framework-triggers-nested-module"
+          ></div>
+          <div
+            class="bg-green-600 h-32"
+            data-cerebro="admin-center-framework-triggers-nested-module-more"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <script src="/cerebro-tag.js"></script>
+  </body>
+</html>
